@@ -146,4 +146,11 @@ export default {
       background-color: var(--remove-btn);
     }
   }
+
+  @media screen and (max-width: 439px) {
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
 </style>

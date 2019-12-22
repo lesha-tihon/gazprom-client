@@ -66,4 +66,11 @@ export default {
       align-items: flex-start;
     }
   }
+
+  @media screen and (max-width: 1059px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 </style>

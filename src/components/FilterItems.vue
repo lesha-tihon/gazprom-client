@@ -88,4 +88,11 @@ export default {
       margin: 30px 0 0 0;
     }
   }
+
+  @media screen and (max-width: 1059px) {
+    .filter {
+      display: flex;
+      justify-content: center;
+    }
+  }
 </style>

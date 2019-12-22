@@ -68,4 +68,28 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: 479px) {
+    .menu {
+      &__item {
+        margin: 0 8px;
+      }
+      &__link {
+        padding: 8px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+    .menu {
+      &__item {
+        margin: 0 6px;
+      }
+      &__link {
+        padding: 6px;
+        font-size: 0.8rem;
+      }
+    }
+  }
 </style>
